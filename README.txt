@@ -9,3 +9,11 @@ pwgen.sh --> generates a list of passwords of the default length. Number of gene
 
 pwgen.sh -l <length> --> change length of generated passwords
 pwgen.sh -n <number> --> change the number of generated passwords
+
+Sample Output:
+
+Otte72=doors
+foge76;raphe
+pome*08confr
+Ewen(24Candy
+foge19-izzat
