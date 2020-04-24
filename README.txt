@@ -12,8 +12,8 @@ pwgen.sh -n <number> --> change the number of generated passwords
 
 Sample Output:
 
-Otte72=doors
-foge76;raphe
-pome*08confr
-Ewen(24Candy
-foge19-izzat
+dextro95+Sagina
+Urissa83:flecks
+enable12!blumes
+Mahran75%glimes
+Slagle!38Cecily

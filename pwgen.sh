@@ -3,7 +3,7 @@
 set -e
 
 # Defaults
-PWLENGTH=12
+PWLENGTH=15
 ITERATIONS=5
 
 # Argument parsing lifted from https://medium.com/@Drew_Stokes/bash-argument-parsing-54f3b81a6a8f
