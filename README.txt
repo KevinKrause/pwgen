@@ -1,6 +1,6 @@
 Simple shell based password generator inspired by the nice dictionary based password generator that was included in macOS/MacOS X before Catalina.
 
-Word list taken from https://github.com/dwyl/english-words, modified to remove acronyms and split into separate files by character count.
+Word list taken from https://www-personal.umich.edu/~jlawler/wordlist.html, split into separate files by character count.
 You can prepare your own word list with the split_wordlist.sh script.
 
 Usage:
@@ -12,8 +12,8 @@ pwgen.sh -n <number> --> change the number of generated passwords
 
 Sample Output:
 
-dextro95+Sagina
-Urissa83:flecks
-enable12!blumes
-Mahran75%glimes
-Slagle!38Cecily
+spying20-Ofmake
+dispel91+Purism
+pledge>81Cooing
+vessel49?Mammon
+Sphere-76foible
