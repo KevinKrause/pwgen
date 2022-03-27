@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Splits a wordlist into individual files per word length
+# Splits a wordlist into individual files by word length
 
 set -e
 

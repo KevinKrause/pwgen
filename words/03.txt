@@ -137,7 +137,6 @@ car
 cat
 caw
 cen
-cf.
 cgs
 che
 chi
@@ -326,7 +325,6 @@ gog
 goo
 goy
 gpa
-gr/
 gre
 grv
 gum
@@ -539,14 +537,12 @@ mop
 mot
 mow
 mrs
-ms.
 mud
 mug
 mum
 mus
 mut
 mya
-n't
 nab
 nag
 nam

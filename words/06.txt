@@ -85,7 +85,6 @@ acuate
 acuity
 aculea
 acumen
-ad-lib
 adagio
 adalia
 adapid
@@ -569,7 +568,6 @@ azonic
 azores
 azotic
 azymia
-b-girl
 babble
 babies
 babish
@@ -1120,7 +1118,6 @@ byroom
 byssus
 byways
 byword
-c.o.d.
 cabala
 cabana
 cabman
@@ -1173,7 +1170,6 @@ camera
 camino
 camper
 campus
-can-do
 canada
 canape
 canard
@@ -1287,7 +1283,6 @@ cayman
 caymon
 cayuga
 cayuse
-cd-rom
 ceasar
 cebuan
 cecity
@@ -1771,7 +1766,6 @@ cussed
 custom
 custos
 custum
-cut-in
 cutlas
 cutler
 cutlet
@@ -2884,7 +2878,6 @@ geisha
 gelebt
 gemini
 gemote
-gen/gr
 gender
 genera
 geneva
@@ -3007,9 +3000,6 @@ gourde
 goutte
 govern
 gowned
-gr/dos
-gr/kat
-gr/pou
 graces
 graded
 grader
@@ -3378,7 +3368,6 @@ hymnal
 hyphen
 hypped
 hyssop
-i-beam
 iambic
 iberis
 icarus
@@ -3430,7 +3419,6 @@ impugn
 impune
 impure
 impute
-in-law
 inanna
 inborn
 inbred
@@ -3573,7 +3561,6 @@ jasper
 jassid
 jaunty
 jejune
-jell-o
 jennet
 jerboa
 jercks
@@ -3886,7 +3873,6 @@ letter
 lettre
 levant
 levels
-levi's
 levies
 levite
 levity
@@ -3905,7 +3891,6 @@ lichen
 licked
 lictor
 lidded
-lie-in
 ligand
 lights
 lignin
@@ -4317,7 +4302,6 @@ mflops
 miasma
 micmac
 micron
-mid-on
 midair
 midday
 midden
@@ -4477,7 +4461,6 @@ movere
 movies
 moving
 mozart
-ms-dos
 muchos
 muckle
 mucoid
@@ -4653,7 +4636,6 @@ ninigi
 nipple
 nitric
 nivose
-no-hit
 nobile
 nobler
 nobody
@@ -4787,7 +4769,6 @@ omelet
 ominia
 omnium
 omotic
-on-key
 onager
 ondine
 oneida
@@ -5381,7 +5362,6 @@ proquo
 proser
 prosit
 protea
-protg
 proton
 proust
 proved
@@ -5860,8 +5840,6 @@ rumble
 rummer
 rumple
 rumpus
-run-on
-run-up
 rundle
 runnel
 runner
@@ -5972,7 +5950,6 @@ sawney
 sawpit
 sawyer
 saxony
-say-so
 saying
 sbirro
 scabby
@@ -6122,7 +6099,6 @@ sesame
 seseli
 sesqui
 sestet
-set-to
 setoff
 setose
 setous
@@ -6281,7 +6257,6 @@ sirrah
 siskin
 sissoo
 sister
-sit-in
 sitcom
 sizzle
 skagit
@@ -6575,7 +6550,6 @@ stingy
 stirps
 stitch
 stiver
-sto/gr
 stocks
 stocky
 stodge
@@ -6725,7 +6699,6 @@ syrtis
 syrupy
 system
 syzygy
-ttons
 tabard
 tabble
 tabita
@@ -6859,7 +6832,6 @@ tetrad
 tetrao
 tetter
 teuton
-thtre
 thalia
 thames
 thanks
@@ -6921,7 +6893,6 @@ ticket
 tickle
 tidbit
 tidily
-tie-on
 tierce
 tiffin
 tights
@@ -6949,7 +6920,6 @@ tinkle
 tinned
 tinsel
 tinted
-tip-up
 tipcat
 tipped
 tippet
@@ -6972,7 +6942,6 @@ tmesis
 tobago
 tocsin
 toddle
-toe-in
 toecap
 toetoe
 togged
@@ -7028,7 +6997,6 @@ townee
 townie
 towrow
 towzle
-tra-la
 tracer
 traces
 tracks
@@ -7165,7 +7133,6 @@ typify
 typing
 typist
 tyrant
-u-turn
 uakari
 uberty
 ubiety
@@ -7274,7 +7241,6 @@ unwind
 unwise
 unworn
 unwrap
-up-bow
 upbear
 upbeat
 upcast
@@ -7685,10 +7651,8 @@ wrongs
 wuther
 wynnea
 wyvern
-x-axis
 xrated
 xylene
-y-axis
 yaffle
 yahweh
 yammer
@@ -7711,7 +7675,6 @@ yonder
 yoruba
 yunnan
 yuppie
-z-axis
 zaffer
 zagreb
 zambia
