@@ -12,8 +12,8 @@ Long options are available as well: pwgen.py --length 22 --number 10
 
 Sample Output:
 
-spying20-Ofmake
-dispel91+Purism
-pledge>81Cooing
-vessel49?Mammon
-Sphere-76foible
+humanity^44Honesty
+feminist70-Venture
+Reassure83.recruit
+equation86)Scratch
+Colorful77>lengthy
