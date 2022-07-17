@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-# TODO: add turbo/low memory mode using pre-counted files from words/*.txt
+
 
 from random import seed
 from random import randint
 from argparse import ArgumentParser
+import os
 
 config = {
     "password_length": 18,
@@ -41,8 +42,9 @@ args = parser.parse_args()
 pwlength = args.pwlength
 pwcount  = args.pwcount
 
-# Load entire word list into separate lists by character count
-file = open("words.txt", "r")
+# Load entire word list
+wordsdir = os.path.dirname(os.path.realpath(__file__))
+file = open(wordsdir + "/words.txt", "r")
 lines = {}
 while True:
     line = file.readline()
