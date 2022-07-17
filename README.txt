@@ -1,7 +1,6 @@
 Simple Python based password generator inspired by the nice dictionary based password generator that was included in macOS/MacOS X before Catalina.
 
-Word list taken from https://www-personal.umich.edu/~jlawler/wordlist.html, slightly cleansed and split into separate files by character count.
-You can prepare your own word list with the split_wordlist.py script.
+Word list taken from https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/American_Oxford_5000.pdf
 
 Usage:
 
