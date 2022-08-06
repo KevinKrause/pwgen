@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
-
-
-from random import seed
-from random import randint
+from random   import seed
+from random   import randint
+from math     import floor
 from argparse import ArgumentParser
 import os
 
@@ -67,7 +66,13 @@ for i in range(0, pwcount):
     # One of the words starts with a capital letter, the other doesn't
     # Both words are either the same length, or one is 1 char shorter
     # In this case, put the shorter word randomly to front or back
-    first_word_length = round((words_total_length / 2) + (randint(0,1) / 10))
+    
+    # Workaround for unintuitive Python round() function
+    if(words_total_length % 2 == 1):
+      first_word_length = floor(words_total_length / 2) + randint(0,1)
+    else:
+      first_word_length = words_total_length / 2
+
     parts = []
     parts.append(get_word(lines[first_word_length]))
     parts.append(get_word(lines[words_total_length - first_word_length]))
