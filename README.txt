@@ -14,10 +14,10 @@ pwgen.py -l <length> --> change length of generated passwords
 pwgen.py -n <number> --> change the number of generated passwords
 Long options are available as well: pwgen.py --length 22 --number 10
 
-Sample Output with default values:
+Sample Output:
 
 Amusing41*shocking
 formerly64;Mandate
-shocking.33Appoint
+Homeland&76reverse
 compile61#Stimulus
 feminist70-Venture
