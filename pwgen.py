@@ -70,6 +70,11 @@ words_total_length = pwlength - 3 # leave room for special char + 2 digits
 
 seed()
 
+# If we're called via CGI, output HTTP header
+if 'REQUEST_METHOD' in os.environ:
+     print("Content-Type: text/plain")
+     print()
+
 for c in range(0, pwcount):
     # Recipe for pw construction: word + special char + 2 digits + word
     #                         or: word + 2 digits + special char + word
