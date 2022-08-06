@@ -1,10 +1,14 @@
 Simple Python based password generator inspired by the nice dictionary based password generator that was included in macOS/MacOS X before Catalina.
 
-Word list taken from https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/American_Oxford_5000.pdf
+The password is generated from two dictionary words, separated by a special character and a two digit number. One of the words starts with a capital letter. Which one, as well as the order of special character and number, is random.
+
+The list of special characters, the default number of generated passwords, and their length can be configured in the script.
+
+The dictionary is extracted from https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/American_Oxford_5000.pdf
 
 Usage:
 
-pwgen.py --> generates a list of passwords of the default length. Default Number of generated PWs and their length can be configured in the script
+pwgen.py --> outputs a list with the default number of passwords of the default length
 
 pwgen.py -l <length> --> change length of generated passwords
 pwgen.py -n <number> --> change the number of generated passwords
