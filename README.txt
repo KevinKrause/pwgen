@@ -4,7 +4,9 @@ The password is generated from two dictionary words, separated by a special char
 
 The list of special characters, the default number of generated passwords, and their length can be configured in the script.
 
-The dictionary is extracted from https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/American_Oxford_5000.pdf
+The dictionary is extracted from 
+https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/American_Oxford_3000.pdf and https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/American_Oxford_5000.pdf
+I combined and sorted the lists, and removed duplicates and non 7bit ASCII chars
 
 Usage:
 
