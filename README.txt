@@ -4,7 +4,7 @@ The password is generated from two dictionary words, separated by a special char
 
 The list of special characters, the default number of generated passwords, and their length can be configured in the script.
 
-The dictionary is extracted from 
+The word list is extracted from 
 https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/American_Oxford_3000.pdf and https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/American_Oxford_5000.pdf
 I combined and sorted the lists, and removed duplicates and non 7bit ASCII chars
 
@@ -18,8 +18,10 @@ Long options are available as well: pwgen.py --length 22 --number 10
 
 Sample Output:
 
-Amusing41*shocking
-formerly64;Mandate
-Homeland&76reverse
-compile61#Stimulus
-feminist70-Venture
+Central&91twelve
+Hostile01=soccer
+Undergo*21ground
+Social61&charity
+profit84;Witness
+
+You can use the report_frequency.py script to find out how many words of each length are present in the word list. With the current word list, words with 6-7 chars occur most often, so passwords with 15 to 17 characters have the best entropy.
