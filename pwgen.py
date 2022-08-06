@@ -11,7 +11,7 @@ from argparse import ArgumentParser
 import os
 
 config = {
-    "password_length": 18,
+    "password_length": 16,
     "iterations": 5,
      # Should not be lower than 7
      # (2 char word + 2 digits + 1 special char + 2 char word)
