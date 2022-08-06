@@ -41,14 +41,17 @@ WARNING: clone.sh DELETES FILES IN THE CURRENT DIRECTORY. It tries to be smart a
 Here's an example snippet to include in your Apache2 config:
 
 <Directory "/var/www/htdocs/pwgen">
-        Options ExecCGI
-        Order allow,deny
-        Allow from all
-        <LimitExcept GET OPTIONS>
-                Deny from all
-        </LimitExcept>
-        AddHandler cgi-script .py
-        DirectoryIndex pwgen.py
+		SetHandler cgi-script
+		Options ExecCGI
+		Order deny,allow
+		Allow from all
+		DirectoryIndex pwgen.py
+		<LimitExcept GET OPTIONS>
+				Deny from all
+		</LimitExcept>
+		<Files clone.sh>
+				Deny from all
+		</Files>
 </Directory>
 
 You'll have to figure out yourself how to do this on Nginx. Should be fairly trivial, though.
