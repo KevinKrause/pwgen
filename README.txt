@@ -27,7 +27,7 @@ Undergo*21ground
 Social61&charity
 profit84;Witness
 
-You can use the report_frequency.py script to find out how many words of each length are present in the word list. With the current word list, words with 6-7 chars occur most often, so passwords with a length of 15 to 17 characters have the best entropy.
+You can use the report_frequency.py script to find out how many words of each length are present in the word list. With the current word list, words with 6 or 7 chars occur most often, so passwords with a length of 15 to 17 characters have the best entropy.
 
 With a password length of 15 chars, there are 773 * 773 * 100 * 21 = 1,254,810,900 possible passwords
 (773 six letter words in the current word list, number 00-99, and one of 21 special characters)
