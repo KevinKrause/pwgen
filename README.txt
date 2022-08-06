@@ -19,6 +19,5 @@ Sample Output with default values:
 Amusing41*shocking
 formerly64;Mandate
 shocking.33Appoint
-Homeland&76reverse
 compile61#Stimulus
 feminist70-Venture
