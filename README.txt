@@ -20,6 +20,10 @@ pwgen.py -l <length> --> change length of generated passwords
 pwgen.py -n <number> --> change the number of generated passwords
 Long options are available as well: pwgen.py --length 22 --number 10
 
+You can try a web based version at https://krau.se/pwgen/ or deploy it yourself as a CGI script. See clone.sh for a primitive script to deploy pwgen on your own web server.
+
+WARNING: clone.sh DELETES FILES IN THE CURRENT DIRECTORY. It tries to be smart and should bail when the current directory is not empty, but THERE IS NO GUARANTEE THAT THIS ALWAYS WORKS CORRECTLY. REVIEW clone.sh AND PROCEED AT YOUR OWN RISK!
+
 Sample Output:
 
 Central&91twelve
