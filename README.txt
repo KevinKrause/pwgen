@@ -1,12 +1,13 @@
 Simple Python based password generator inspired by the nice dictionary based password generator that was included in macOS/MacOS X before Catalina.
 
 The passwords are generated from two dictionary words, separated by a special character and a two digit number. One of the words starts with a capital letter. Which one, as well as the order of special character and number, is random.
+The two dictionary words are of equal length or differ in length by one character, e.g. a  15 character password uses two 6 letter words plus 2 digits and a special char, a 16 character password is composed of one 6 and one 7 letter word plus 2 digits and a special char.
 
 The list of special characters, the default number of generated passwords, and their default length can be configured in the script.
 
 The word list is extracted from 
 https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/American_Oxford_3000.pdf and https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/American_Oxford_5000.pdf
-The lists have been combined and sorted, and duplicates and non 7bit ASCII chars have been removed or replaced.
+The lists have been combined and sorted. Duplicates and non 7bit ASCII characters as well as hyphenated compound words have been removed or replaced.
 
 Please note that the word list is based on the 5000 most frequent words in American English and thus probably contains words that might be considered offensive alone or in certain combinations.
 It is up to the user's consideration which generated passwords are deemed appropriate for use.
