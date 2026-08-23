@@ -33,14 +33,15 @@ profit84;Witness
 ## Word frequency
 You can use the report_frequency.py script to find out how many words of each length are present in the word list. With the current word list, words with 6 or 7 chars occur most often, so passwords with a length of 15 to 17 characters have the best entropy.
 
-With a password length of 15 chars, there are 773 * 773 * 100 * 21 = 1,254,810,900 possible passwords
-(773 six letter words in the current word list, number 00-99, and one of 21 special characters)
+With a password length of 15 chars, there are 773 * 773 * 100 * 21 * 2 = 2,509,621,800 possible passwords
+(773 six letter words in the current word list, number 00-99, one of 21 special characters, one word is capitalized)
 
 ## CLI or CGI
 This script can be used on the command line or served as a CGI script without any modifications You can try a web based version at https://krau.se/pwgen or deploy it yourself as a CGI script.
 
 Here's an example snippet to include in your Apache2 config:
 
+```
 <Directory "/var/www/htdocs/pwgen">
 		SetHandler cgi-script
 		Options ExecCGI
@@ -51,5 +52,6 @@ Here's an example snippet to include in your Apache2 config:
 				Deny from all
 		</LimitExcept>
 </Directory>
+```
 
 You'll have to figure out yourself how to do this on Nginx or Caddy. Should be fairly trivial, though.
