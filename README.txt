@@ -33,10 +33,7 @@ You can use the report_frequency.py script to find out how many words of each le
 With a password length of 15 chars, there are 773 * 773 * 100 * 21 = 1,254,810,900 possible passwords
 (773 six letter words in the current word list, number 00-99, and one of 21 special characters)
 
-
-You can try a web based version at https://krau.se/pwgen/ or deploy it yourself as a CGI script. See clone.sh for a primitive script to deploy pwgen on your own web server.
-
-WARNING: clone.sh DELETES FILES IN THE CURRENT DIRECTORY. It tries to be smart and should bail when the current directory is not empty, but THERE IS NO GUARANTEE THAT THIS ALWAYS WORKS CORRECTLY. REVIEW clone.sh AND PROCEED AT YOUR OWN RISK!
+You can try a web based version at https://krau.se/pwgen/ or deploy it yourself as a CGI script.
 
 Here's an example snippet to include in your Apache2 config:
 
@@ -49,9 +46,6 @@ Here's an example snippet to include in your Apache2 config:
 		<LimitExcept GET OPTIONS>
 				Deny from all
 		</LimitExcept>
-		<Files clone.sh>
-				Deny from all
-		</Files>
 </Directory>
 
 You'll have to figure out yourself how to do this on Nginx. Should be fairly trivial, though.
